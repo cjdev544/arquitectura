@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3 {
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+/* Header */
+.header {
+    background-image: url(../img/superior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 39rem;
+}
+
+.header .nav-link,
+.footer .nav-link {
+    color: #ffffff;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.titulo span {
+    font-weight: 900;
+}
+
+.header a,
+.footer a {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.phone::before {
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/icono_telefono.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+@media (min-width: 992px) {
+    .header .nav-link::before {
+        color: #ffffff;
+        content: '|';
+        margin-right: 1rem;
+    }
+
+    .header .nav-link:first-child::before {
+        display: none;
+    }
+}
+
+
+/* Nosotros */
+.nosotros-bg {
+    background-image: url(../img/nosotros.jpg);
+    min-height: 44rem;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+@media (min-width: 768px) {
+    .nosotros-bg {
+        min-height: 36rem;
+    }
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+
+/* Modelos */
+.model {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+
+@media (min-width: 768px) {
+    .model {
+        min-height: 30rem;
+    }
+}
+
+.basico {
+    background-image: url(../img/modelo_basico.jpg);
+    background-position: top right;
+}
+
+.premier {
+    background-image: url(../img/modelo_premier.jpg);
+    background-position: top left;
+}
+
+.elite {
+    background-image: url(../img/modelo_elite.jpg);
+    background-position: top right;
+}
+
+
+/* Footer */
+.footer {
+    height: 30rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-dark {
+    background-color: #111!important;
+}
+
+.footer p {
+    font-size: .8rem;
+}
+
+.footer a {
+    font-size: 1rem;
+}
